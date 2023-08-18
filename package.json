@@ -11,16 +11,34 @@
     "deploy": "next build && next export && npx thirdweb@latest upload out"
   },
   "dependencies": {
-    "@thirdweb-dev/react": "^3",
-    "@thirdweb-dev/sdk": "^3",
-    "ethers": "^5",
+    "@account-abstraction/contracts": "^0.6.0",
+    "@account-abstraction/sdk": "^0.6.0",
+    "@chakra-ui/icons": "^2.1.0",
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@openzeppelin/contracts": "^4.9.2",
+    "@openzeppelin/contracts-upgradeable": "^4.9.2",
+    "@paperxyz/react-client-sdk": "^1.1.3",
+    "@thirdweb-dev/react": "^3.14.20",
+    "@thirdweb-dev/sdk": "^3.10.40",
+    "autoprefixer": "^10.4.14",
+    "ethers": "^5.7.2",
+    "framer-motion": "^10.15.0",
     "next": "^13",
+    "postcss": "^8.4.25",
     "react": "^18.2",
-    "react-dom": "^18.2"
+    "react-dom": "^18.2",
+    "react-hook-form": "^7.45.1",
+    "react-icons": "^4.10.1",
+    "react-slick": "^0.29.0",
+    "tailwindcss": "^3.3.2",
+    "thirdweb": "^0.11.4"
   },
   "devDependencies": {
     "@types/node": "^18.11.11",
     "@types/react": "^18",
+    "@types/react-slick": "^0.23.10",
     "eslint": "^8.29.0",
     "eslint-config-next": "^13",
     "typescript": "^4.9.4"
